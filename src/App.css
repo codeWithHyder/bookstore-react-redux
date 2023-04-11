@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: #2e3840;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  min-height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  padding-left: 5rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  padding-left: 2rem;
+}
+
+.logo {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  position: absolute;
+  top: 5%;
+  left: 2rem;
+}
+
+.book-wrap {
+  margin: 5rem 3rem 1rem 2rem;
+  border-radius: 5px;
+  max-width: 100rem;
+  background-color: rgb(255, 255, 251);
+  padding: 1rem;
+}
+
+.books li {
+  list-style: none;
+  padding: 5px 4rem;
+}
+
+.form-wrap {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.title {
+  width: 12rem;
+  height: 3rem;
+  margin-left: 5rem;
+}
+
+.author {
+  width: 12rem;
+  height: 3rem;
+  margin-left: 3rem;
+}
+
+.submit {
+  margin-left: 15%;
+  position: absolute;
+  width: 8rem;
+  height: 3rem;
+  background-color: #009fbd;
+  color: beige;
+}
+
+.btn {
+  color: beige;
+  margin-left: 1rem;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.remove {
+  background-color: #009fbd;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  color: beige;
+}
