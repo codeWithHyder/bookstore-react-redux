@@ -48,7 +48,7 @@ React and redux
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-- N/A (Will be available after final approval)
+- [Live Demo](Will be available after final approval)
 
 
 
@@ -88,11 +88,11 @@ The Project has been deployed in the link below.
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Ghulam Hyder Dar**
+👤 **Baqar Abbas**
 
-- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
-- Twitter: [@Hyder](https://twitter.com/@hyder3512)
-- LinkedIn: [@Hyder](https://www.linkedin.com/in/ghulam-hyder-dar-165653206/)
+- GitHub: [@Baqar](https://github.com/baqar-abbas)
+- Twitter: [@BaqarAbbas9](https://twitter.com/BaqarAbbas9)
+- LinkedIn: [Baqar Abbas](https://www.linkedin.com/in/baqarlinkedin/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -117,7 +117,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner [@Mursadul Islam]. 
+I would like to thank my coding partner [@Salma Hassan Ibrahim]. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
