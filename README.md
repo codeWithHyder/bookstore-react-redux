@@ -99,7 +99,7 @@ The Project has been deployed in the link below.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Functionality of Adding and deleting books will be implemented using components and redux toolkit. Going forward complete UI website will be developed with two links to navigate i.e Home and Categories.**
+- [ ] **[Functionality of Adding and deleting books will be implemented using components and redux toolkit. Going forward complete UI website will be developed with two links to navigate i.e Home and Categories.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
