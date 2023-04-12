@@ -88,11 +88,11 @@ The Project has been deployed in the link below.
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Baqar Abbas**
+👤 **Ghulam Hyder**
 
-- GitHub: [@Baqar](https://github.com/baqar-abbas)
-- Twitter: [@BaqarAbbas9](https://twitter.com/BaqarAbbas9)
-- LinkedIn: [Baqar Abbas](https://www.linkedin.com/in/baqarlinkedin/)
+- GitHub: [@Hyder](https://github.com/codeWithHyder)
+- Twitter: [@Hyder](https://twitter.com/@hyder3512)
+- LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar-165653206/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
