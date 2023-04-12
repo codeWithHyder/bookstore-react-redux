@@ -1,22 +1,25 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
-// NavLink,
+import { NavLink } from 'react-router-dom';
+
 function Navbar() {
   return (
-    <>
-      <header>
-        <nav className="nav-bar">
-          <div className="logo">BOOKSTORE CMS</div>
-          <ul>
-            <li><NavLink to="/">Books</NavLink></li>
-            <li><NavLink to="/Categories">Categories</NavLink></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <Outlet />
-      </main>
-    </>
+    <header style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      <h1>Bookstore CMS</h1>
+      <nav>
+        <ul style={{ display: 'flex', gap: '2rem' }}>
+          <li>
+            <NavLink to="/">
+              Books
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/categories">
+              Categories
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 
