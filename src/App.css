@@ -54,6 +54,11 @@ main {
   padding: 1rem;
 }
 
+.booklst {
+  display: grid;
+  grid-template-columns: 25% 35% 30% 10%;
+}
+
 .books li {
   list-style: none;
   padding: 5px 4rem;
@@ -101,4 +106,8 @@ main {
   width: 6rem;
   height: 2rem;
   color: beige;
+}
+
+hr {
+  width: 100%;
 }
