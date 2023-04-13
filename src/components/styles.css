@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(233, 224, 224);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(245, 239, 239);
+  padding-left: 2rem;
+}
+
+.navbar {
+  display: grid;
+  width: 15rem;
+  grid-template-columns: 50% 50%;
+}
+
+.fa-solid {
+  margin-left: 15rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid rgb(75, 131, 168);
+  padding: 0.5rem;
+  color: cornflowerblue;
+}
+
+.same {
+  color: cornflowerblue;
+}
+
+/* ------------------- add new book css ----------------- */
+.addnew {
+  margin-left: 7rem;
+}
+
+.frm {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 40rem 20rem 8rem;
+  grid-template-rows: 3rem;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  margin-right: 10rem;
+}
+
+input {
+  height: 3rem;
+  padding: 1rem 0;
+  margin-top: 0.2rem;
+  color: grey;
+}
+
+.submit {
+  height: 3rem;
+  margin-top: 0.2rem;
+  background-color: #4386bf;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.chkbtn {
+  height: 3rem;
+  width: 8rem;
+  background-color: #4386bf;
+  color: whitesmoke;
+}

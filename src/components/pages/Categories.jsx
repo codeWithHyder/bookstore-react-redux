@@ -2,7 +2,7 @@ import React from 'react';
 
 const Categories = () => (
   <div style={{ margin: '5rem 20rem' }}>
-    <button type="button">Check Status</button>
+    <button type="button" className="chkbtn">Check Status</button>
   </div>
 );
 

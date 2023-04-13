@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 import { removeBook, fetchBooks } from '../redux/features/books/bookSlice';
 
@@ -28,24 +30,47 @@ const Book = () => {
   }
 
   return (
-    <div style={{ margin: '2rem 20rem' }}>
+    <div>
       { books && books.map((book) => (
-        <ul key={uuid()}>
-          <li>
-            {book.title}
-          </li>
-          <li>
-            {book.author}
-          </li>
-          <li>
-            <button
-              onClick={() => dispatch(removeBook(book.item_id))}
-              type="button"
-            >
-              Remove
-            </button>
-          </li>
-        </ul>
+        <div className="LessonPanel flex" key={uuid()}>
+          <div className="bookCard1">
+            <p className="bookCategory">Non Fiction</p>
+            <p className="Title">
+              {book.title}
+            </p>
+            <p className="commentsEdit">
+              {book.author}
+            </p>
+            <div>
+              <button className="commentsEdit" type="button">Comments</button>
+              <span className="line" />
+              <button
+                className="commentsEdit"
+                onClick={() => dispatch(removeBook(book.item_id))}
+                type="button"
+              >
+                Remove
+              </button>
+              <span className="line" />
+              <button className="commentsEdit" type="button">Edit</button>
+            </div>
+          </div>
+          <div className="bookCard2 flex">
+            <div className="ProgressOvalDiv ">
+              <CircularProgressbar className="ProgressOval" value={25} />
+            </div>
+            <div>
+              <p className="Percent-Complete">35%</p>
+              <p className="Completed">Completed</p>
+            </div>
+          </div>
+          <span className="line2" />
+          <div className="bookCard3">
+            <p className="currentChapter">CURRENT CHAPTER</p>
+            <p className="currentLesson">Chapter x </p>
+            <button className="updateButton" type="button">UPDATE PROGRESS</button>
+          </div>
+        </div>
       ))}
     </div>
   );

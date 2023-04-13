@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
-
 import { addBook, postBook } from '../redux/features/books/bookSlice';
 
 const AddNewBook = () => {
@@ -31,16 +30,18 @@ const AddNewBook = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ margin: '4rem 20rem' }}>
-      <h2>ADD NEW BOOK</h2>
-      <input onChange={handleChange} type="text" id="title" name="title" value={title} placeholder="Book Title" />
-      {' '}
-      <input onChange={handleChange} type="text" id="author" name="author" value={author} placeholder="Author" />
-      {' '}
-      <button type="submit">Add Book</button>
-      <br />
-      <span>{message}</span>
-    </form>
+    <>
+      <h2 className="addnew">Add New Book</h2>
+      <form onSubmit={handleSubmit} className="frm">
+        <input onChange={handleChange} type="text" id="title" name="title" value={title} placeholder="Book Title" />
+        {' '}
+        <input onChange={handleChange} type="text" id="author" name="author" value={author} placeholder="Author" />
+        {' '}
+        <button type="submit" className="submit">Add Book</button>
+        <br />
+        <span>{message}</span>
+      </form>
+    </>
   );
 };
 
