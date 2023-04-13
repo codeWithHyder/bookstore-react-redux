@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
 
-import { addBook, postBook } from '../redux/books/bookSlice';
+import { addBook, postBook } from '../redux/features/books/bookSlice';
 
-function AddNewBook() {
+const AddNewBook = () => {
   const [newBook, setNewBook] = useState({
     item_id: '', title: '', author: '', category: '',
   });
@@ -42,6 +42,6 @@ function AddNewBook() {
       <span>{message}</span>
     </form>
   );
-}
+};
 
 export default AddNewBook;
