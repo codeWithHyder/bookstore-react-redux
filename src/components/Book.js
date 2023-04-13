@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
 
-import { removeBook, fetchBooks } from '../redux/features/books/bookSlice';
+import { removeBook, fetchBooks } from '../redux/books/bookSlice';
 
 function Book() {
   const bookData = useSelector((state) => state.allBook);

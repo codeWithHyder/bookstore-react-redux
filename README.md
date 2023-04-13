@@ -69,7 +69,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/baqar-abbas/math-magician
+  git 
 ```
 
 ### Install
@@ -88,9 +88,9 @@ The Project has been deployed in the link below.
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Ghulam Hyder**
+👤 **Ghulam Hyder Dar**
 
-- GitHub: [@Hyder](https://github.com/codeWithHyder)
+- GitHub: [@codeWithHyder](https://github.com/codeWithHyder)
 - Twitter: [@Hyder](https://twitter.com/@hyder3512)
 - LinkedIn: [Hyder](https://www.linkedin.com/in/ghulam-hyder-dar-165653206/)
 
@@ -117,7 +117,7 @@ If you like this project please consider leaving a review.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my coding partner [@Salma Hassan Ibrahim]. 
+I would like to thank my coding partners [@Mursadul islam and others]. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
 
-import { addBook, postBook } from '../redux/features/books/bookSlice';
+import { addBook, postBook } from '../redux/books/bookSlice';
 
 function AddNewBook() {
   const [newBook, setNewBook] = useState({

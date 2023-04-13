@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice.js';
+import { addBook, addNewBook } from '../redux/books/booksSlice';
 
 const BookInput = () => {
   const [title, setTitle] = useState('');
@@ -12,8 +12,17 @@ const BookInput = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addBook({
-      item_id: uuidv4(), title, author, category,
-    }));
+      item_id: uuidv4(),
+      title,
+      author,
+      category,
+    }))
+      .then(() => dispatch(addNewBook({
+        item_id: uuidv4(),
+        category,
+        title,
+        author,
+      })));
     setTitle('');
     setAuthor('');
     setCategory('');
@@ -31,7 +40,6 @@ const BookInput = () => {
             placeholder="Title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            required
           />
         </label>
         <input
@@ -40,7 +48,6 @@ const BookInput = () => {
           placeholder="Author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
-          required
         />
         <select id="category" name="category" value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="">Please choose prefered category</option>
