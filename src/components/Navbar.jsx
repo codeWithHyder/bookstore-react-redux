@@ -12,13 +12,13 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/categories">
+          <NavLink className="category" to="/categories">
             Categories
           </NavLink>
         </li>
       </ul>
     </nav>
-    <i className="fa-solid fa-user same" />
+    <i className="fa-solid fa-user" />
   </header>
 );
 
