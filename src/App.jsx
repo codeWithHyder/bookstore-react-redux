@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Books from './components/pages/Books';
 import Categories from './components/pages/Categories';
 import Navbar from './components/Navbar';
+import './components/styles.css';
 
 function App() {
   return (

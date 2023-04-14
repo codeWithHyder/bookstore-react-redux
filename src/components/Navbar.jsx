@@ -2,22 +2,23 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
-  <header style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-    <h1>Bookstore CMS</h1>
+  <header className="header">
+    <h1 className="bkstore same">Bookstore CMS</h1>
     <nav>
-      <ul style={{ display: 'flex', gap: '2rem' }}>
+      <ul className="navbar">
         <li>
           <NavLink to="/">
             Books
           </NavLink>
         </li>
         <li>
-          <NavLink to="/categories">
+          <NavLink className="category" to="/categories">
             Categories
           </NavLink>
         </li>
       </ul>
     </nav>
+    <i className="fa-solid fa-user" />
   </header>
 );
 
